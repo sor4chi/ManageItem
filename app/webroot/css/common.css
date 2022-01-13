@@ -1,0 +1,241 @@
+/* 全体に適応する　文字フォントなど */
+body {
+    margin: 0px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style-type: none;
+}
+
+span {
+    margin : 0px 10px 0px 10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* ヘッダーに関するスタイル */
+
+header {
+    height: 100px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-container {
+    position: relative;
+    width: 1010px;
+    margin: auto;
+}
+
+.logo {
+    position: relative;
+    top: 40px;
+    left: 425px;
+}
+
+.logo-img {
+    height: 40px;
+    width: 161px;
+}
+
+.header-menu {
+    float: right;
+    margin-top: 10px;
+}
+
+.header-menu li {
+    display: inline-block;
+}
+
+.header-menu li a {
+    color: #666;
+    text-decoration: none;
+}
+
+.header-menu span {
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+/* コンテンツに関するスタイル */
+
+.wrapper {
+    width: 1010px;
+    min-height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.col-main {
+    float: left;
+    width: 762px;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+/*    background-color: #fee;*/
+}
+
+.col-right {
+    float: right;
+    width: 240px;
+    height: 500px;
+}
+
+.mainbox-title {
+    font-size: 16px;
+    padding: 10px;
+    margin: 0px;
+    border-bottom: 1px solid #eee;
+    -webkit-font-smoothing: antialiased;
+}
+
+.article-boxes :hover {
+    background-color: #fee;
+}
+
+.article-box {
+    float: left;
+    width: 50%;
+    height: 190px;
+    padding: 10px;
+}
+
+.article-box .article-thumb {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    float: left;
+    display: inline-block;
+}
+
+.article-box .article-title {
+    margin-bottom: 10px;
+}
+
+.article-box .article-title a {
+    font-size: 16px;
+    line-height: 19px;
+    color: #666;
+    word-break:break-all;
+}
+
+.article-box .article-body {
+    font-size: 12px;
+    line-height: 19px;
+    color: #939393;
+    margin : 0px;
+    word-break:break-all;
+}
+
+.article-box .article-published {
+    font-size: 12px;
+    color: #939393;
+    margin : 0px;
+    float: right;
+}
+
+.article-box .article-username {
+    font-size: 12px;
+    color: #939393;
+    margin : 0px;
+    float: right;
+}
+
+.feature-title {
+    border-left: 3px solid #e94363;
+    border-bottom: 1px solid #eee;
+}
+
+.feature-title h2 {
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.feature-title p {
+    font-size: 12px;
+    padding: 0px 0px 5px 10px;
+    margin: 0px;
+    color: #939393;
+}
+
+.feature-article-boxes :hover {
+    background-color: #fee;
+}
+
+.feature-article-box {
+    height: 70px;
+    padding: 5px 0px;
+    border-bottom: 1px solid #eee;
+}
+
+.feature-article-box .article-thumb {
+    float: left;
+    margin-right: 5px;
+}
+
+.feature-article-box .article-thumb img {
+    width: 60px;
+    height: 60px;
+}
+
+.feature-article-box .article-title {
+    margin-bottom: 6px;
+}
+
+.feature-article-box .article-title a {
+    font-size: 12px;
+    color: #666;
+    word-break:break-all;
+}
+
+.feature-article-box .article-published {
+    font-size: 12px;
+    color: #939393;
+    margin : 0 5px 0 0;
+    float: right;
+}
+
+/* フッターに関するスタイル */
+
+footer {
+    height: 50px;
+    border-top: 1px solid #ccc;
+}
+
+.footer-container {
+    width: 1010px;
+    margin: auto;
+    font-size: 12px;
+}
+
+.footer-menu {
+    float: left;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+.footer-menu li {
+    display: inline-block;
+    color: #666;
+}
+
+.footer-menu span {
+    padding: 0px 10px 0px 10px;
+    margin: 0px;
+}
+
+.copyright {
+    font-size: 11px;
+    float: right;
+    color: #666;
+    position: relative;
+    margin-top: 20px;
+}

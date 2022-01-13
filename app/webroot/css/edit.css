@@ -1,0 +1,78 @@
+.article-form-header {
+    width: 100%;
+    background: #ccc;
+    padding: 10px 20px;
+    border: 1px solid #bbb;
+    border-radius: 5px;    
+}
+
+.article-form-buttons {
+    float: right;
+}
+
+.article-headline {
+    margin: 10px;
+}
+
+#article-thumb {
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    float: left;
+}
+
+.article-description {
+    width: 600px;
+    float: left;    
+}
+
+#article-title {
+    width: 600px;
+    float: left;
+    margin-bottom: 5px;
+}
+
+#article-body {
+    width: 600px;
+    height: 80px;
+}
+
+#thumb-form {
+    width: 300px;
+    margin: 0px;
+    display: inline-block;
+}
+
+.item-box {
+    margin-top: 40px;
+    border: 1px solid #ccc;
+}
+
+.edit-box {
+    margin-bottom: 40px;
+}
+
+/*右カラム　.editpagerアイテム移動などの横長ボタン*/
+.editpager{width: 100%; padding: 0;margin: 0px ;float:left;background: linear-gradient(to bottom, #FFF, #F0F0F0) repeat scroll 0% 0% transparent;}
+.editpager li:hover {background-color:#eee;}
+.editpager li {float:left;display:block;width: 100px;height: 25px;border-right: 1px solid #F0F0F0;color: #555;padding-left: 25px;background-repeat: no-repeat;background-position:0 center; background-size:15px;cursor: pointer;vertical-align: middle;}
+.editpager .first-order{background-image:url('http://image.topicks.jp/assets/edit/make_posted_top2.png'); }
+.editpager .minus-order{background-image:url('http://image.topicks.jp/assets/edit/make_posted_up2.png'); }
+.editpager .plus-order{background-image:url('http://image.topicks.jp/assets/edit/make_posted_down2.png');}
+.editpager .last-order{background-image:url('http://image.topicks.jp/assets/edit/make_posted_last2.png'); }
+.editpager .edit-item{background-image:url('http://image.topicks.jp/assets/edit/make_posted_edit2.png'); }
+.editpager .delete-item{background-image:url('http://image.topicks.jp/assets/edit/make_posted_delete2.png');}
+
+.item {
+
+margin: 50px 20px 50px 20px;
+}
+
+.text-item {
+    font-size: 16px;
+}
+
+.unvisible {
+    display: none;
+}
